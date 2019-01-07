@@ -1,0 +1,21 @@
+{
+    "author": "Rene Spisak",
+    "name": "Keep docs.microsoft.com in English",
+    "version": "1.0.0.0",
+    "description": "Redirects from machine translated docs.microsoft.com back to English version.",    
+    "manifest_version": 2,
+    "icons": {
+        "48": "assets/icon48.png",
+        "128": "assets/icon128.png",
+        "176": "assets/icon176.png"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "permissions": [
+        "<all_urls>",
+        "webRequest",
+        "webRequestBlocking"
+    ]
+}
